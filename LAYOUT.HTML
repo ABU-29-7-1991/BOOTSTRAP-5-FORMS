@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <h1>Hello, world!</h1>
+	<hr/>
+	<label class="form-label" for="formLayoutExample1">EXAMPLE LABEL :</label>
+	<input class="form-control" type="text" id="formLayoutExample1" placeholder="EXAMPLE INPUT PLACEHOLDER" />
+	<br/>
+	<label class="form-label" for="formLayoutExample2">ANOTHER LABEL :</label>
+	<input class="form-control" type="text" id="formLayoutExample2" placeholder="ANOTHER INPUT PLACEHOLDER" />
+	<br/>
+	<div class="row">
+		<div class="col">
+			<input class="form-control" type="text" placeholder="FIRST NAME" />
+		</div>
+		<div class="col">
+			<input class="form-control" type="text" placeholder="LAST NAME" />
+		</div>
+	</div>
+	<br/>
+	<div class="row g-3">
+		<div class="col">
+			<input class="form-control" type="text" placeholder="FIRST NAME" />
+		</div>
+		<div class="col">
+			<input class="form-control" type="text" placeholder="LAST NAME" />
+		</div>
+	</div>
+	<br/>
+	<form class="row g-3">
+		<div class="col-md-6">
+			<label class="form-label" for="formLayoutExample3">EMAIL :</label>
+			<input class="form-control" type="email" id="formLayoutExample3" />
+		</div>
+		<div class="col-md-6">
+			<label class="form-label" for="formLayoutExample4">PASSWORD :</label>
+			<input class="form-control" type="password" id="formLayoutExample4" />
+		</div>
+		<div class="col-12">
+			<label class="form-label" for="formLayoutExample5">ADDRESS :</label>
+			<input class="form-control" type="text" id="formLayoutExample5" placeholder="1234 MAIN ST" />
+		</div>
+		<div class="col-12">
+			<label class="form-label" for="formLayoutExample6">ADDRESS 2 :</label>
+			<input class="form-control" type="text" id="formLayoutExample6" placeholder="APARTMENT, STUDIO OR FLOOR" />
+		</div>
+		<div class="col-md-6">
+			<label class="form-label" for="formLayoutExample7">CITY :</label>
+			<input class="form-control" type="text" id="formLayoutExample7" />
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formLayoutExample8">STATE :</label>
+			<select class="form-select" id="formLayoutExample8">
+				<option selected>CHOOSE...</option>
+				<option value="">...<option>
+			</select>
+		</div>
+		<div class="col-md-2">
+			<label class="form-label" for="formLayoutExample9">ZIP :</label>
+			<input class="form-control" type="text" id="formLayoutExample9" />
+		</div>
+		<div class="col-12">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="formLayoutExample10" />
+				<label class="form-check-label" for="formLayoutExample10">CHECK ME OUT</label>
+			</div>
+		</div>
+		<div class="col-12">
+			<input class="btn btn-primary" type="submit" value="SIGN IN" />
+		</div>
+	</form>
+	<br/>
+	<form>
+		<div class="row">
+			<label class="col-sm-2 col-form-label" for="formLayoutExample11">EMAIL</label>
+			<div class="col-sm-10">
+				<input class="form-control" type="email" id="formLayoutExample11" />
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+				<label class="col-sm-2 col-form-label" for="formLayoutExample12">PASSWORD</label>
+				<div class="col-sm-10">
+					<input class="form-control" type="password" id="formLayoutExample12" />
+				</div>
+		</div>
+		<br/>
+		<fieldset class="row">
+			<legend class="col-form-label col-sm-2 pt-0">RADIOS :</legend>
+			<div class="col-sm-10">
+				<div class="form-check">
+					<input class="form-check-input" type="radio" id="formLayoutExample13" name="gridRadios" value="option1" checked />
+					<label class="form-check-label" for="formLayoutExample13">FIRST RADIO</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" id="formLayoutExample14" name="gridRadios" value="option2" />
+					<label class="form-check-label" for="formLayoutExample14">SECOND RADIO</label>
+				</div>
+				<div class="form-check disabled">
+					<input class="form-check-input" type="radio" id="formLayoutExample15" name="gridRadios" value="option3" disabled />
+					<label class="form-check-label" for="formLayoutExample15">THIRD DISABLED RADIO</label>
+				</div>
+			</div>
+		</fieldset>
+		<br/>
+		<div class="row">
+			<div class="col-sm-10 offset-sm-2">
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="formLayoutExample16" />
+					<label class="form-check-label" for="formLayoutExample16">EXAMPLE CHECKBOX</label>
+				</div>
+			</div>
+		</div>
+		<input class="btn btn-primary" type="submit" value="SIGN IN" />
+	</form>
+	<br/>
+	<div class="row">
+		<label class="col-sm-2 col-form-label col-form-label-sm" for="formLayoutExample17">EMAIL :</label>
+		<div class="col-sm-10">
+			<input class="form-control form-control-sm" type="email" id="formLayoutExample17" placeholder="COL-FORM-LABEL COL-FORM-LABEL-SM" />
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<label class="col-sm-2 col-form-label" for="formLayoutExample18">EMAIL :</label>
+		<div class="col-sm-10">
+			<input class="form-control" type="email" id="formLayoutExample18" placeholder="COL-FORM-LABEL" />
+		</div>
+	</div>
+	<br/>
+	<div class="row">
+		<label class="col-sm-2 col-form-label col-form-label-lg" for="formLayoutExample19">EMAIL :</label>
+		<div class="col-sm-10">
+			<input class="form-control form-control-lg" type="email" id="formLayoutExample19" placeholder="COL-FORM-LABEL COL-FORM-LABEL-LG" />
+		</div>
+	</div>
+	<br/>
+	<div class="row g-3">
+		<div class="col-sm-7">
+			<input class="form-control" type="text" placeholder="CITY" />
+		</div>
+		<div class="col-sm">
+			<input class="form-control" type="text" placeholder="STATE" />
+		</div>
+		<div class="col-sm">
+			<input class="form-control" type="text" placeholder="ZIP" />
+		</div>
+	</div>
+	<br/>
+	<form class="row gy-2 gx-3 align-items-center">
+		<div class="col-auto">
+			<input class="form-control" type="text" placeholder="JANE DOE" />
+		</div>
+		<div class="col-auto">
+			<div class="input-group">
+				<div class="input-group-text">@</div>
+				<input class="form-control" type="text" placeholder="USERNAME" />
+			</div>
+		</div>
+		<div class="col-auto">
+			<select class="form-select">
+				<option selected>CHOOSE...</option>
+				<option value="1">ONE</option>
+				<option value="2">TWO</option>
+				<option value="3">THREE</option>
+			</select>
+		</div>
+		<div class="col-auto">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="formLayoutExample20" />
+				<label class="form-check-label" for="formLayoutExample20">REMEMBER ME</label>
+			</div>
+		</div>
+		<div class="col-auto">
+			<input class="btn btn-primary" type="submit" value="SUBMIT" />
+		</div>
+	</form>
+	<br/>
+	<form class="row gx-3 gy-2 align-items-center">
+		<div class="col-sm-3">
+			<input class="form-control" type="text" placeholder="JANE DOE" />
+		</div>
+		<div class="col-sm-3">
+			<div class="input-group">
+				<div class="input-group-text">@</div>
+				<input class="form-control" type="text" placeholder="USERNAME" />
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<select class="form-select">
+				<option selected>CHOOSE...</option>
+				<option value="1">ONE</option>
+				<option value="2">TWO</option>
+				<option value="3">THREE</option>
+			</select>
+		</div>
+		<div class="col-auto">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="formLayoutExample21" />
+				<label class="form-check-label" for="formLayoutExample21">REMEMBER ME</label>
+			</div>
+		</div>
+		<div class="col-auto">
+			<input class="btn btn-primary" type="submit" value="SUBMIT" />
+		</div>
+	</form>
+	<br/>
+	<form class="row row-cols-lg-auto g-3 align-items-center">
+		<div class="col-12">
+			<div class="input-group">
+				<div class="input-group-text">@</div>
+				<input class="form-control" type="text" placeholder="USERNAME" />
+			</div>
+		</div>
+		<div class="col-12">
+			<select class="form-select">
+				<option selected>CHOOSE...</option>
+				<option value="1">ONE</option>
+				<option value="2">TWO</option>
+				<option value="3">THREE</option>
+			</select>
+		</div>
+		<div class="col-12">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="formLayoutExample22" />
+				<label class="form-check-label" for="formLayoutExample22">REMEMBER ME</label>
+			</div>
+		</div>
+		<div class="col-12">
+			<input class="btn btn-primary" type="submit" value="submit" />
+		</div>
+	</form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

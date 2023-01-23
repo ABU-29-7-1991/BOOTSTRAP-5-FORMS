@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <h1>Hello, world!</h1>
+	<hr/>
+	<form class="row g-3 needs-validation" novalidate>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample">FIRST NAME :</label>
+			<input class="form-control" type="text" id="formValidationExample" value="MARK" required />
+			<div class="valid-feedback">LOOKS GOOD!</div>
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample0">LAST NAME :</label>
+			<input class="form-control" type="text" id="formValidationExample0" value="OTTO" required />
+			<div class="valid-feedback">LOOKS GOOD!</div>
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample1">USERNAME :</label>
+			<div class="input-group has-validation">
+				<div class="input-group-text">@</div>
+				<input class="form-control" type="text" id="formValidationExample1" required />
+				<div class="invalid-feedback">PLEASE CHOOSE A USERNAME.</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<label class="form-label" for="formValidationExample2">CITY :</label>
+			<input class="form-control" type="text" id="formValidationExample2" required />
+			<div class="invalid-feedback">PLEASE PROVIDE A VALID CITY.</div>
+		</div>
+		<div class="col-md-3">
+			<label class="form-label" for="formValidationExample3">STATE :</label>
+			<select class="form-select" id="formValidationExample3" required>
+				<option value="" selected disabled>CHOOSE...</option>
+				<option value="">...</option>
+			</select>
+			<div class="invalid-feedback">PLEASE SELECT A VALID STATE.</div>
+		</div>
+		<div class="col-md-3">
+			<label class="form-label" for="formValidationExample4">ZIP :</label>
+			<input class="form-control" type="text" id="formValidationExample4" required />
+			<div class="invalid-feedback">PLEASE PROVIDE A VALID ZIP.</div>
+		</div>
+		<div class="col-12">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="formValidationExample5" required />
+				<label class="form-check-label" for="formValidationExample5">AGREE TO TERMS AND CONDITIONS</label>
+				<div class="invalid-feedback">YOU MUST AGREE BEFORE SUBMITTING.</div>
+			</div>
+		</div>
+		<div class="col-12">
+			<input class="btn btn-primary" type="submit" value="SUBMIT FORM" />
+		</div>
+	</form>
+	<br/>
+	<form class="row g-3">
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample6">FIRST NAME :</label>
+			<input class="form-control" type="text" id="formValidationExample6" value="MARK" required />
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample7">LAST NAME :</label>
+			<input class="form-control" type="text" id="formValidationExample7" value="OTTO" required />
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample8">USERNAME :</label>
+			<div class="input-group">
+				<div class="input-group-text">@</div>
+				<input class="form-control" type="text" id="formValidationExample8" required />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<label class="form-label" for="formValidationExample9">CITY :</label>
+			<input class="form-control" type="text" id="formValidationExample9" required />
+		</div>
+		<div class="col-md-3">
+			<label class="form-label" for="formValidationExample10">STATE :</label>
+			<select class="form-select" id="formValidationExample10" required>
+				<option value="" selected disabled>CHOOSE...</option>
+				<option value="">...</option>
+			</select>
+		</div>
+		<div class="col-md-3">
+			<label class="form-label" for="formValidationExample11">ZIP :</label>
+			<input class="form-control" type="text" id="formValidationExample11" required />
+		</div>
+		<div class="col-12">
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="formValidationExample12" value="" required />
+				<label class="form-check-label" for="formValidationExample12">AGREE TO TERMS AND CONDITIONS</label>
+			</div>
+		</div>
+		<div class="col-12">
+			<input class="btn btn-primary" type="submit" value="SUBMIT FORM" />
+		</div>
+	</form>
+	<br/>
+	<form class="row g-3">
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample13">FIRST NAME :</label>
+			<input class="form-control is-valid" type="text" id="formValidationExample13" value="MARK" required />
+			<div class="valid-feedback">LOOKS GOOD!</div>
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample14">LAST NAME :</label>
+			<input class="form-control is-valid" type="text" id="formValidationExample14" value="OTTO" required />
+			<div class="valid-feedback">LOOKS GOOD!</div>
+		</div>
+		<div class="col-md-4">
+			<label class="form-label" for="formValidationExample15">USERNAME :</label>
+			<div class="input-group has-validation">
+				<div class="input-group-text">@</div>
+				<input class="form-control is-invalid" type="text" id="formValidationExample15" required />
+				<div class="invalid-feedback">PLEASE CHOOSE A USERNAME.</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<label class="form-label" for="formValidationExample16">CITY :</label>
+			<input class="form-control is-invalid" type="text" id="formValidationExample16" required />
+			<div class="invalid-feedback">PLEASE PROVIDE A VALID CITY.</div>
+		</div>
+		<div class="col-md-3">
+			<label class="form-label" for="formValidationExample17">STATE :</label>
+			<select class="form-select is-invalid" id="formValidationExample17" required>
+				<option value="" selected disabled>CHOOSE...</option>
+				<option value="">...</option>
+			</select>
+			<div class="invalid-feedback">PLEASE SELECT A VALID STATE.</div>
+		</div>
+		<div class="col-md-3">
+			<label class="form-label" for="formValidationExample18">ZIP</label>
+			<input class="form-control is-invalid" type="text" required />
+			<div class="invalid-feedback">PLEASE PROVIDE A VALID ZIP.</div>
+		</div>
+		<div class="col-12">
+			<div class="form-check">
+				<input class="form-check-input is-invalid" type="checkbox" id="formValidationExample19" value="" required />
+				<label class="form-check-label" for="formValidationExample19">AGREE TO TERMS AND CONDITIONS</label>
+				<div class="invalid-feedback">YOU MUST AGREE BEFORE SUBMITTING.</div>
+			</div>
+		</div>
+		<div class="col-12">
+			<input class="btn btn-primary" type="submit" value="SUBMIT FORM" />
+		</div>
+	</form>
+	<br/>
+	<form class="was-validated">
+		<div>
+			<label class="form-label" for="formValidationExample20">TEXTAREA :</label>
+			<textarea class="form-control" id="formValidationExample20" placeholder="REQUIRED EXAMPLE TEXTAREA" required></textarea>
+			<div class="invalid-feedback">PLEASE ENTER A MESSAGE IN THE TEXTAREA.</div>
+		</div>
+		<br/>
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" id="formValidationExample21" required />
+			<label class="form-check-label" for="formValidationExample21">CHECK THIS CHECKBOX</label>
+			<div class="invalid-feedback">EXAMPLE INVALID FEEDBACK TEXT.</div>
+		</div>
+		<br/>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" id="formValidationExample22" name="radio-stacked" required />
+			<label class="form-check-label" for="formValidationExample22">TOGGLE THIS RADIO</label>
+		</div>
+		<div class="form-check">
+			<input class="form-check-input" type="radio" id="formValidationExample23" name="radio-stacked" required />
+			<label class="form-check-label" for="formValidationExample23">OR TOGGLE THIS OTHER RADIO</label>
+			<div class="invalid-feedback">MORE EXAMPLE INVALID FEEDBACK TEXT.</div>
+		</div>
+		<br/>
+		<div>
+			<select class="form-select" required>
+				<option value="" selected>OPEN THIS SELECT MENU</option>
+				<option value="1">ONE</option>
+				<option value="2">TWO</option>
+				<option value="3">THREE</option>
+			</select>
+			<div class="invalid-feedback">EXAMPLE INVALID SELECT FEEDBACK.</div>
+		</div>
+		<br/>
+		<div>
+			<input class="form-control" type="file" required />
+			<div class="invalid-feedback">EXAMPLE INVALID FORM FILE FEEDBACK.</div>
+		</div>
+		<br/>
+		<input class="btn btn-primary" type="submit" value="SUBMIT FORM" disabled />
+	</form>
+	<br/>
+	<form class="row g-3 needs-validation" novalidate>
+		<div class="col-md-4 position-relative">
+			<label class="form-label" for="formValidationExample24">FIRST NAME :</label>
+			<input class="form-control" type="text" id="formValidationExample24" value="MARK" required />
+			<div class="valid-tooltip">LOOKS GOOD!</div>
+		</div>
+		<div class="col-md-4 position-relative">
+			<label class="form-label" for="formValidationExample25">LAST NAME :</label>
+			<input class="form-control" type="text" id="formValidationExample25" value="OTTO" required />
+			<div class="valid-tooltip">LOOKS GOOD!</div>
+		</div>
+		<div class="col-md-4 position-relateve">
+			<label class="form-label" for="formValidationExample26">USERNAEM :</label>
+			<div class="input-group has-validation">
+				<div class="input-group-text">@</div>
+				<input class="form-control" type="text" id="formValidationExample26" required />
+				<div class="invalid-tooltip">PLEASE CHOOSE A UNIQUE AND VALID USERNAME.</div>
+			</div>
+		</div>
+		<div class="col-md-6 position-relative">
+			<label class="form-label" for="formValidationExample27">CITY :</label>
+			<input class="form-control" type="text" id="formValidationExample27" required />
+			<div class="invalid-tooltip">PLEASE PROVIDE A VALID CITY.</div>
+		</div>
+		<div class="col-md-3 position-relative">
+			<label class="form-label" for="formValidationExample28">STATE :</label>
+			<select class="form-select" id="formValidationExample28" required>
+				<option value="" selected disabled>CHOOSE...</option>
+				<option value="">...</option>
+			</select>
+			<div class="invalid-tooltip">PLEASE SELECT A VALID STATE.</div>
+		</div>
+		<div class="col-md-3 position-relative">
+			<label class="form-label" for="formValidationExample29">ZIP</label>
+			<input class="form-control" type="text" required />
+			<div class="invalid-tooltip">PLEASE PROVIDE A VALID ZIP.</div>
+		</div>
+		<div class="col-12">
+			<input class="btn btn-primary" type="submit" value="SUBMIT FORM" />
+		</div>
+	</form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(() => {
+			'use strict'
+
+			// Fetch all the forms we want to apply custom Bootstrap validation styles to
+			const forms = document.querySelectorAll('.needs-validation')
+
+			// Loop over them and prevent submission
+			Array.from(forms).forEach(form => {
+				form.addEventListener('submit', event => {
+				if (!form.checkValidity()) {
+					event.preventDefault()
+					event.stopPropagation()
+				}
+
+				form.classList.add('was-validated')
+				}, false)
+			})
+		})()
+	</script>
+  </body>
+</html>
